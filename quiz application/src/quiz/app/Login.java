@@ -14,7 +14,7 @@ public class Login extends JFrame implements ActionListener {
      public Login(){
          getContentPane().setBackground(Color.WHITE);
          setLayout(null);
-         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/login.jpg"));
+         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/logo.jpg"));
          Image i = i1.getImage().getScaledInstance(550,500,Image.SCALE_DEFAULT);
          ImageIcon i2 = new ImageIcon(i);
 
